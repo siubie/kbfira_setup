@@ -20,9 +20,7 @@
     |...     |mysql:latest         |"docker-entrypoint.s…"      |...|...|33060/tcp, 0.0.0.0:3308->3306/tcp|mysql-container|
 
 1. ブラウザで以下のURLにアクセスして下さい
-    ```
     http://localhost:8081/kbfira_docs/index.php/admin/m/x/app/setup
-    ```
     ![URL:初期画面](img/URL_initial.png)
 1. データベースの初期化を行うために,Select databese configuration:のプルダウンからkbv2-firaを選択して下さい
 1. 続いて下に移動して,Begin Database Setupボタンを押して下さい※ボタンを押すと確認画面が出ますが,Yesを選択して下さい
@@ -47,8 +45,6 @@ docker-compose logs (コンテナ名) #docker-composeでのログ出力,コン�
 ```
 # LiveServer実装
 1. 以下の記事(URL)より,手順に沿ってインストールして下さい
-    ```
     https://web-niar.com/blog/vscode-liveserver-mamp/
-    ```
 1. 手順1~5のうち2と5は不要
-1. 手順4のActual Server Addressをhttp://localhost:8081 に, Live Server Address をhttp://localhost:5500/に設定しApply
+1. 手順4のActual Server Addressを http://localhost:8081 に, Live Server Address を http://localhost:5500/ に設定しApply
