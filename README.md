@@ -1,10 +1,12 @@
 # docker環境構築
 1. docker公式よりPCにdockerをダウンロードして下さい(Windowsの場合は[Dockerのインストール方法(Windows).md](/Dockerのインストール方法(Windows).md)を参照して下さい)
 1. Code>Downloadよりkbfira_setup-main.zipをダウンロードして下さい
-1. 以下のコマンドを実行してkbfira_setup-main/nginx/kbfira_docs/html下にcloneして下さい
+1. ダウンロードしたzipファイルを解凍して下さい
+1. 任意のフォルダで以下のコマンドを実行してシステムのソースコードをcloneして下さい
     ```
     git clone https://github.com/LearningEngineeringLaboratory/kbfira_docs.git
     ```
+1. Cloneしたフォルダの中身を全てkbfira_setup-main/nginx/kbfira_docs/html下に移動して下さい
 1. kbfira_setup-mainに移動し,以下のコマンドを実行して下さい
     ```
     docker-compose up -d
