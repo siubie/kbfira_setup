@@ -46,4 +46,3 @@ docker-compose logs (コンテナ名) #docker-composeでのログ出力,コン�
 1. 以下の記事(URL)より,手順に沿ってインストールして下さい
     https://web-niar.com/blog/vscode-liveserver-mamp/
 1. 手順1~5のうち2と5は不要
-1. 手順4のActual Server Addressを http://localhost:8081 に, Live Server Address を http://localhost:5500/ に設定しApply
