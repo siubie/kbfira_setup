@@ -1,0 +1,3 @@
+[submodule "nginx/kbfira_docs/html/kbfira_docs"]
+	path = nginx/kbfira_docs/html/kbfira_docs
+	url = https://github.com/LearningEngineeringLaboratory/kbfira_docs.git
