@@ -3,7 +3,7 @@
 1. Gitをwebで検索しインストールする
 1. Dockerをインストールする
    1. <https://www.docker.com/>のページに飛ぶ
-   1. 一番下にスクロールし、DevelopersのDocsのリンクを押す
+   1. 一番下にスクロールし、DevelopersのDocumentationのリンクを押す
    1. Download and installのリンクを押す
    1. Docker Desktop for Windowsのリンクを押す
    1. 少しスクロールするとTurn on the WSL 2 ... Microsoft DocumentationがあるのでそこからMicrosoft Documentationに入る
