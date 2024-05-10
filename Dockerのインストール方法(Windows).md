@@ -12,7 +12,7 @@
       1. 下記のコマンドを打ち込む
 
 ```
-   wsl␣--install
+   wsl --install
 ```
 
 1. Microsoft Documenttationに飛ぶ前のページ(Install Docker Desktop on Windows)の一番上にDocker Desktop for WindowsボタンがあるのでDockerをダウンロードする
@@ -20,5 +20,5 @@
 1. Windows terminalを開き上の∨からubuntuを開きユーザとパスワードを設定する
 1. Docker Desktopを開いた状態で、ubuntuで下記のコマンドを打ち込むことでubuntuが動いていることを確認する（人によってはpowershellでしか動かない人がいるので、動かない人はpowershellで確認）
 ```
-   docker␣--version
+   docker --version
 ```
