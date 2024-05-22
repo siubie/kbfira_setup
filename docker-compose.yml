@@ -14,13 +14,14 @@ services:
     networks:
       - kbv2-fira-net
   mysql:
-    image: mysql:latest
+    image: mysql:8.0.36
     container_name: mysql-container
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: mysql
     ports:
       - "3308:3306"
+    # command: --mysql-native-password=ON
     volumes:
       - ./mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
       - ./mysql/data:/var/lib/mysql
